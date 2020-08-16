@@ -1,0 +1,31 @@
+{
+  "name": "rest-tut",
+  "version": "1.0.0",
+  "description": "nodejs,express,mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljfass/REST-TUT.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "ljf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljfass/REST-TUT/issues"
+  },
+  "homepage": "https://github.com/ljfass/REST-TUT#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
